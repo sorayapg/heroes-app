@@ -11,11 +11,11 @@ export const Navbar = () => {
     
 
     const onLogout = () => {
+        logout();
         navigate('/login', {
-            
             replace: true
         });
-        logout();
+        
         
     }
 
